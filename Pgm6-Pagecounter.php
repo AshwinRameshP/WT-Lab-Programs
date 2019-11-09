@@ -1,5 +1,5 @@
 <?php 
-
+/*
    $fp = fopen("counterlog.txt", "r"); 
    $count = fread($fp, 10); 
    fclose($fp); 
@@ -8,7 +8,8 @@
    $fp = fopen("counterlog.txt", "w"); 
    fwrite($fp, $count); 
    fclose($fp); 
-/*
+*/
+
 print "<h3> REFRESH PAGE </h3>";
 
 $name="counterlog.txt";
@@ -30,6 +31,5 @@ fclose($file);
 
 
 print "Total number of views: ".$hits[0];
-*/
 
  ?> 
