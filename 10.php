@@ -44,7 +44,7 @@ while($row = $result->fetch_assoc()){
 echo "<tr>";
 echo "<td>". $row["usn"]."</td>";
 echo "<td>". $row["name"]."</td>";
-echo "<td>". $row["sem"]."</td></tr>";
+echo "<td>". $row["Address"]."</td></tr>";
 array_push($a,$row["usn"]);
 }
 }
@@ -75,7 +75,7 @@ while($row = $result->fetch_assoc()) {
 for($i=0;$i<$n;$i++) {
 if($row["usn"]== $a[$i]) {
 $c[$i]=$row["name"];
-$d[$i]=$row["sem"];
+$d[$i]=$row["Address"];
 }
 }
 }
